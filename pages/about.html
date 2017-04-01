@@ -1,0 +1,27 @@
+---
+title: About
+permalink: /about/
+call_to_action: blog
+background_image:
+large_header: false
+show_in_navigation: true
+navigation_order: 1
+---
+
+<div class="editable">
+  <p><strong>D8A</strong> is focused on the future of data science and deep learning. We aim to be at the forefront of advanced technologies in artificial/cognitive intelligence. These include, but are not limited to, biological networks, neural laces, edge analytics, fog computing, Internet of Things (IoT), and System of Systems (SoS).
+  
+  <p>We work with both big data analysis and precision programming (personalized or "small" data). Activities involve bioinformatics, business intelligence, experimental design, exploratory research, machine learning, market strategy, reproducibility testing, and statistical storytelling.</p>
+
+  <p>Our team has broad interests in climate & environmental research, computational & systems biology, disease detection & diagnostics, public health & policy, and much more.  We are committed to issues around bioethics, data diversity, information integrity, and digital privacy & security.</p>
+
+	<h3>Meet the members of our team</h3>
+</div>
+
+<ul class="staff-list">
+	{% for member in site.people %}
+		<li class="staff">
+		  {% include staff-member.html member=member %}
+		</li>
+	{% endfor %}
+</ul>

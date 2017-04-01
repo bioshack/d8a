@@ -1,0 +1,84 @@
+# Site
+
+title: D8A
+description: Data, Discovery & Decision Science
+logo: /images/logo.png
+url: "http://d8a.org"
+baseurl:
+
+google_tagmanager: "GTM-ML6GH4"
+disqus_shortname:
+
+cta:
+  about: Learn more about our areas of interest, mission, and team members!
+  blog: Read our blog for updates on our projects.
+  home: Join our team of scientists, statisticians, and storytellers!
+
+social:
+  - name: Facebook
+    link: https://www.facebook.com/d8aorg
+    icon: facebook
+  - name: Google+
+    link: https://plus.google.com/113500938723593004365
+    icon: google
+  - name: Instagram
+    link: https://www.instagram.com/d8aorg
+    icon: instagram
+  - name: LinkedIn
+    link: https://www.linkedin.com/company/d8aorg
+    icon: linkedin
+  - name: Twitter
+    link: https://twitter.com/d8aorg
+    icon: twitter
+  - name: YouTube
+    link: https://www.youtube.com/d8aorg
+    icon: youtube
+  
+summary: Social enterprise specializing in data, discovery & decision science. Follow us for updates.
+email: info@d8a.org
+founded: 2016
+github_repo: "https://github.com/d8aorg/d8aorg.github.io"
+
+# Build
+
+paginate: 10
+paginate_path: "/pages/:num/"
+
+collections:
+  - "people"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: page
+      background_image: /images/background.png
+      image: /images/background.png
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      _comments:
+        image: Shown in social shares and the blog list.
+
+permalink: pretty
+
+jekyll-archives:
+  enabled:
+    - categories
+
+gems:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE

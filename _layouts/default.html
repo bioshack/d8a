@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="generator" content="Jekyll v{{ jekyll.version }}">
+
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Quattrocento|Vollkorn:400,400i,700,700i">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+		<link rel="apple-touch-icon" href="{{ site.baseurl }}/images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/touch-icon.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
+
+		{% feed_meta %}
+		{% seo %}
+
+		{% if jekyll.environment == 'production' and site.google_tagmanager != '' %}
+      <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','{{ site.google_tagmanager }}');
+      </script>
+		{% endif %}
+	</head>
+
+	<body>
+	  {% if jekyll.environment == 'production' and site.google_tagmanager != '' %}
+	    <noscript>
+	      <iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tagmanager }}"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      </noscript>
+		{% endif %}
+	  
+		<header style="background-image: url('{% include relative-src.html src=page.background_image %}');" {% if page.large_header %}class="main-hero"{% endif %}>
+			<div class="container">
+				<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+				<nav>
+					<ul>
+						{% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
+						{% for nav_page in nav_pages %}
+							<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a></li>
+						{% endfor %}
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="main">
+			<div class="container">
+				{{ content }}
+			</div>
+		</section>
+
+		{% if page.call_to_action == 'about' %}
+			<section class="quote-section">
+				<p class="container editable">
+					<a href="{{ site.baseurl }}/about/">{{ site.cta.about }}</a>
+				</p>
+			</section>
+		{% elsif page.call_to_action == 'blog' %}
+			<section class="quote-section">
+				<p class="container editable">
+					<a href="{{ site.baseurl }}/blog/">{{ site.cta.blog }}</a>
+				</p>
+			</section>
+		{% else %}
+			<section class="quote-section">
+				<p class="container editable">
+					<a href="{{ site.baseurl }}/">{{ site.cta.home }}</a>
+				</p>
+			</section>
+		{% endif %}
+
+		<footer>
+			<div class="container">
+				<div class="footer-columns">
+				  
+				  <ul class="footer-links">
+						<li>
+							<h2>Pages</h2>
+						</li>
+						<li><a href="{{ site.baseurl }}/">Home</a></li>
+	  				{% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
+		  			{% for nav_page in nav_pages %}
+						  <li><a href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a></li>
+			  		{% endfor %}
+					</ul>
+					
+					<ul class="footer-links">
+						<li>
+							<h2>Social</h2>
+						</li>
+						{% for link in site.social %}
+						<li>
+							<a href="{% include relative-src.html src=link.link %}" {% if link.icon %}class="fa fa-{{ link.icon }}"{% endif %} target="_blank">
+								{{ link.name }}
+						 </a>
+						</li>
+						{% endfor %}
+					</ul>
+
+					<ul class="footer-links">
+						<li>
+							<h2>{{ site.title }}</h2>
+						</li>
+						<li>{{ site.summary }}</li>
+						<li><a href="{{ site.baseurl }}/feed.xml" class="fa fa-rss" target="_blank"> Subscribe with RSS</a></li>
+						{% if site.email %}<li><a href="mailto:{{ site.email }}" class="fa fa-envelope" target="_blank"> Send us an email</a></li>{% endif %}
+					</ul>
+				</div>
+			</div>
+
+			<div class="legal-line">
+				<p class="container">
+					Copyright &copy; {% if site.founded %}{{site.founded}}-{% endif %}{{ site.time | date: '%Y' }} <strong><a href="{{ site.baseurl }}/">{{ site.title }}</a></strong>
+					{% if site.github_repo %} &bull; View &lt;/&gt; on <a href="{{ site.github_repo }}" target="_blank">GitHub &nbsp;<i class="fa fa-github-alt"></i></a>{% endif %}
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
