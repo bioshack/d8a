@@ -1,7 +1,7 @@
 ---
 name: Megan
 link: "http://megdna.github.io"
-image: "https://avatars2.githubusercontent.com/u/8283950"
+image: "https://avatars.githubusercontent.com/u/8283950"
 title: Data Scientist
 social:
   - name: Facebook

@@ -58,13 +58,19 @@
 		{% if page.call_to_action == 'about' %}
 			<section class="quote-section">
 				<p class="container editable">
-					<a href="{{ site.baseurl }}/about/">{{ site.cta.about }}</a>
+					<a href="{{ site.baseurl }}/about">{{ site.cta.about }}</a>
+				</p>
+			</section>
+		{% elsif page.call_to_action == 'projects' %}
+			<section class="quote-section">
+				<p class="container editable">
+					<a href="{{ site.baseurl }}/projects">{{ site.cta.projects }}</a>
 				</p>
 			</section>
 		{% elsif page.call_to_action == 'blog' %}
 			<section class="quote-section">
 				<p class="container editable">
-					<a href="{{ site.baseurl }}/blog/">{{ site.cta.blog }}</a>
+					<a href="{{ site.baseurl }}/blog">{{ site.cta.blog }}</a>
 				</p>
 			</section>
 		{% else %}

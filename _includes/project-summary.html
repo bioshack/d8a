@@ -1,0 +1,13 @@
+<div class="staff-details">
+	<div class="staff-image">
+		<img src="{% include relative-src.html src=include.project.image %}" alt="Photo of {{ include.project.name }}" width="120" height="120">
+	</div>
+	<ul class="staff-info">
+		<li><a href="{{ include.project.link }}" target="_blank">{{ include.project.name }}</a></li>
+		<li><small>{{ include.project.title }}</small></li>
+	</ul>
+</div>
+
+<div class="staff-bio">
+	<p>{{ include.project.content | markdownify }}</p>
+</div>

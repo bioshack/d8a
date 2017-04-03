@@ -1,0 +1,23 @@
+---
+title: Projects
+permalink: /projects
+call_to_action: blog
+background_image:
+large_header: false
+show_in_navigation: true
+navigation_order: 2
+---
+
+<div class="editable">
+  <p>If you would like to contribute to our programs or collaborate on something new, please <a href="mailto:{{ site.email }}" target="_blank">contact us</a>!</p>
+
+  <h3>From the D8A Labs</h3>
+</div>
+
+<ul class="staff-list">
+	{% for project in site.projects %}
+		<li class="staff">
+		  {% include project-summary.html project=project %}
+		</li>
+	{% endfor %}
+</ul>

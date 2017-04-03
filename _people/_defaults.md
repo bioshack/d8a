@@ -1,7 +1,7 @@
 ---
 name: D8A
 link: "http://d8aorg.github.io"
-image: "https://avatars3.githubusercontent.com/u/26314547"
+image: "https://avatars.githubusercontent.com/u/26314547"
 title: Data Scientists
 social:
   - name: Facebook

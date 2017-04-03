@@ -15,6 +15,7 @@ intro: D8A is a social enterprise specializing in data, discovery & decision sci
 
 cta:
   about: Learn more about our areas of interest, mission, and team members!
+  projects: See what we are working on and contribute to our endeavors.
   blog: Read our blog for updates on our projects.
   home: Join our team of scientists, statisticians, and storytellers!
 
@@ -44,6 +45,7 @@ paginate_path: "/pages/:num/"
 
 collections:
   - "people"
+  - "projects"
 
 defaults:
   -
