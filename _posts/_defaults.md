@@ -3,6 +3,6 @@ title:
 date:
 categories:
 author:
-image: "https://placehold.it/600/450?a=.png"
+image: /images/dna.jpg
 large_header: false
 ---

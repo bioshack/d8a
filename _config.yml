@@ -9,6 +9,9 @@ baseurl:
 google_tagmanager: "GTM-ML6GH4"
 disqus_shortname:
 
+image: /images/d8a.png
+intro: D8A is a social enterprise specializing in data, discovery & decision science. We promote practices and programs that benefit nature and society.
+
 cta:
   about: Learn more about our areas of interest, mission, and team members!
   blog: Read our blog for updates on our projects.
@@ -21,20 +24,14 @@ social:
   - name: Google+
     link: https://plus.google.com/113500938723593004365
     icon: google
-  - name: Instagram
-    link: https://www.instagram.com/d8aorg
-    icon: instagram
   - name: LinkedIn
     link: https://www.linkedin.com/company/d8aorg
     icon: linkedin
   - name: Twitter
     link: https://twitter.com/d8aorg
     icon: twitter
-  - name: YouTube
-    link: https://www.youtube.com/d8aorg
-    icon: youtube
   
-summary: Social enterprise specializing in the data of everything (DoE). Follow us for updates.
+summary: Social enterprise specializing in the data of everything (DoE).
 email: info@d8a.org
 founded: 2016
 github_repo: "https://github.com/d8aorg/d8aorg.github.io"
@@ -53,8 +50,8 @@ defaults:
       path: ""
     values:
       layout: page
-      background_image: /images/background.png
-      image: /images/background.png
+      background_image: /images/dots.png
+      image: /images/logo.png
   -
     scope:
       path: ""

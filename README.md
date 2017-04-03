@@ -6,13 +6,18 @@ This is a Jekyll theme created for **[D8A](http://d8aorg.github.io)**.
 
 - Inspired by [Justice](https://github.com/CloudCannon/justice-jekyll-template)
 - Icons by [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
-- Images from [Unsplash](https://unsplash.com)
+- Images for
+    - [Background](https://www.flickr.com/photos/79237959@N02/12210424505)
+    - [Data Types](https://commons.wikimedia.org/wiki/File:Data_types_-_pt_br.svg)
+    - [DNA](http://wink-designs.com) [Cloud](http://www.tagxedo.com)
 
 ## License
 
 The following directories and their contents are *Copyright D8A*. You may not reuse anything therein without permission:
 
+- /_people/
 - /_posts/
+- /_projects/
 - /images/
 - /pages/
 
