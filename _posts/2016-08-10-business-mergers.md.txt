@@ -4,7 +4,7 @@ date: 2016-08-10 00:00:00
 categories:
   - Business
 author: megan
-image:
+image: /images/dna.jpg
 large_header: false
 ---
 
