@@ -8,7 +8,7 @@ This is a Jekyll theme created for **[D8A](http://d8aorg.github.io)**.
 - Icons by [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
 - Images for
     - [Background](https://www.flickr.com/photos/79237959@N02/12210424505)
-    - [Data Types](https://commons.wikimedia.org/wiki/File:Data_types_-_pt_br.svg)
+    - [Data Types](https://commons.wikimedia.org/wiki/File:Data_types_-_en.svg)
     - [DNA](http://wink-designs.com) [Cloud](http://www.tagxedo.com)
 
 ## License

@@ -3,7 +3,7 @@ title: Business Mergers
 date: 2016-08-10 00:00:00
 categories:
   - Business
-author:
+author: megan
 image:
 large_header: false
 ---
