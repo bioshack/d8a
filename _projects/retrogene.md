@@ -1,6 +1,5 @@
 ---
 name: Retrogene
-link: 
 image: "https://avatars.githubusercontent.com/u/20542853"
 title: Going Back to Move Forward
 social:
@@ -9,4 +8,4 @@ social:
     icon: github
 ---
 
-Research initiative focused on ancient DNA, genome evolution and native ancestry
+Research initiative focused on ancient DNA, genome evolution, and native ancestry

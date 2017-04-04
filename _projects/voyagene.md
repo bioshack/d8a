@@ -1,6 +1,5 @@
 ---
 name: VoyaGene
-link:
 image: "https://avatars.githubusercontent.com/u/22062701"
 title: Journey the Genome
 social:
