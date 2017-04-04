@@ -1,0 +1,20 @@
+---
+layout: default
+call_to_action: home
+background_image:
+---
+
+{% if page.title %}
+	<div class="page-header">
+		<h2>{{ page.title }}</h2>
+	</div>
+{% endif %}
+
+{% for category in site.categories %}
+  <h3>{{ category[0] }}</h3>
+  <ul>
+    {% for post in category[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
