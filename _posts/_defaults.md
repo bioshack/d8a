@@ -1,7 +1,6 @@
 ---
 title:
 date:
-categories:
 tags:
 author:
 image: /images/dna.jpg

@@ -1,13 +1,15 @@
 ---
 title: Tags
 permalink: /tags
-layout: default
 call_to_action: home
 background_image:
+large_header: false
+show_in_navigation: false
 ---
 
 {% for tag in site.tags %}
-  <a href="#{{ tag[0] | slugify }}" class="fa fa-tag">{{ tag[0] }}</a>
+  {% unless forloop.first %}&bull;{% endunless %}
+  <a href="/#{{ tag[0] | slugify }}" class="fa fa-tag">{{ tag[0] }}</a>
 {% endfor %}
 
 {% for tag in site.tags %}
@@ -15,8 +17,8 @@ background_image:
     <ul>
       {% for post in tag[1] %}
         <li>
-          <a href="{{ post.url }}">{{ post.title }}</a> 
-          <small>by {{ post.author }} on {{ post.date | date_to_string }}</small>
+          <a href="{{ post.url }}">{{ post.title }}</a>&bull;
+          <small>by {{ post.author.name }} on {{ post.date | date: '%B %d, %Y' }}</small>
         </li>
       {% endfor %}
     </ul>
