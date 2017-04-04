@@ -69,6 +69,7 @@ permalink: pretty
 jekyll-archives:
   enabled:
     - categories
+    - tags
 
 gems:
   - jekyll-archives

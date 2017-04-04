@@ -3,6 +3,8 @@ title: Retrogene
 permalink: /retrogene
 date: 2016-07-15 00:00:00
 categories:
+  - Projects
+tags:
   - DNA
   - DIV
 author: megan
