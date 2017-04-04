@@ -1,7 +1,7 @@
 ---
 title: Retrogene
 permalink: /retrogene
-date:
+date: 2016-07-15 00:00:00
 categories: DNA
 author: bioshack
 image: /images/retrogene.jpg
