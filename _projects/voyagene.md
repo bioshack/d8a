@@ -1,0 +1,12 @@
+---
+name: VoyaGene
+link:
+image: "https://avatars.githubusercontent.com/u/22062701"
+title: Journey the Genome
+social:
+  - name: Github Repo
+    link: https://github.com/voyagene
+    icon: github
+---
+
+Tool to search and explore genes or traits

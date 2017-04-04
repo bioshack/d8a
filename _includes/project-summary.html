@@ -5,6 +5,11 @@
 	<ul class="staff-info">
 		<li><a href="{{ include.project.link }}" target="_blank">{{ include.project.name }}</a></li>
 		<li><small>{{ include.project.title }}</small></li>
+		<li>
+      {% for link in include.project.social %}
+        <small><a href="{% include relative-src.html src=link.link %}" class="fa fa-{{ link.icon }}" target="_blank"> {{ link.name }}</a></small>
+      {% endfor %}
+		</li>
 	</ul>
 </div>
 
