@@ -41,7 +41,7 @@ github_repo: "https://github.com/d8aorg/d8aorg.github.io"
 # Build
 
 paginate: 10
-paginate_path: "/pages/:num/"
+paginate_path: "/pages/:num"
 
 collections:
   - "people"
