@@ -4,6 +4,8 @@ call_to_action: home
 background_image:
 ---
 
+{% assign page = site.pages | where: "path", "pages/index.html" | first %}
+
 {% if page.title %}
 	<div class="page-header">
 		<h2>{{ page.title }}</h2>
