@@ -15,8 +15,8 @@ intro: D8A is a social enterprise specializing in data, discovery & decision sci
 
 cta:
   about: Learn more about our areas of interest, mission, and team members!
-  projects: See what we are working on and get involved.
-  blog: Read our blog for updates on our projects.
+  projects: See what we are working on and get involved
+  blog: Read our blog for updates on our projects
   home: Join our team of scientists, statisticians, and storytellers!
 
 social:
@@ -33,7 +33,7 @@ social:
     link: https://twitter.com/d8aorg
     icon: twitter
   
-summary: Social enterprise specializing in the data of everything (DoE).
+summary: Social enterprise specializing in the data of everything (DoE)
 email: info@d8a.org
 founded: 2016
 github_repo: "https://github.com/d8aorg/d8aorg.github.io"

@@ -5,7 +5,7 @@ This is a Jekyll theme created for **[D8A](http://d8aorg.github.io)**.
 ## Credits
 
 - Inspired by [Justice](https://github.com/CloudCannon/justice-jekyll-template)
-- Icons by [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
+- Icons from [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
 - Images for
     - [Background](https://www.flickr.com/photos/79237959@N02/12210424505)
     - [Data Types](https://commons.wikimedia.org/wiki/File:Data_types_-_en.svg)
