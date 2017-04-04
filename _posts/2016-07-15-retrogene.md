@@ -4,6 +4,7 @@ permalink: /retrogene
 date: 2016-07-15 00:00:00
 categories:
   - DNA
+  - DIV
 author: megan
 image: /images/retrogene.jpg
 large_header: false
