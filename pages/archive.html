@@ -16,7 +16,7 @@ show_in_navigation: false
 
 <p>
   {% for author in site.posts %}
-    <a href="#{{ author.name[0] | slugify }}" class="fa fa-tag">{{ author.name[0] }}</a> &nbsp;
+    <a href="#{{ post.author[0] | slugify }}" class="fa fa-tag">{{ post.author[0] }}</a> &nbsp;
   {% endfor %}
 </p>
 
