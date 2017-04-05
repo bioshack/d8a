@@ -15,7 +15,7 @@ show_in_navigation: false
 <h3>Authors and Projects</h3>
 
 <p>
-  {% for author in site.people %}
+  {% for author in site.posts %}
     <a href="#{{ author.name[0] | slugify }}" class="fa fa-tag">{{ author.name[0] }}</a> &nbsp;
   {% endfor %}
 </p>
