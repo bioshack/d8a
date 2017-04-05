@@ -7,7 +7,10 @@ large_header: false
 show_in_navigation: false
 ---
 
-<p>{% assign author = site.categories %}</p>
+<p>
+  {% assign category_id = include.post.author %}
+  {% assign category = site.categories | where: "id", category_id | first %}
+</p>
 
 <h3>Authors and Projects</h3>
 
