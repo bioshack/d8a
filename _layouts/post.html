@@ -6,13 +6,23 @@ layout: page
 
 <div>{{ content }}</div>
 
+{% if page.author %}
 <h2>About the author</h2>
 <div class="post-author staff">
 	{% assign author_id = page.author | prepend: "/people/" | append: "/" %}
 	{% assign author = site.people | where: "url", author_id | first %}
-
 	{% include staff-member.html member=author %}
 </div>
+{% endif %}
+
+{% if page.project %}
+<h2>About the project</h2>
+<div class="post-author staff">
+	{% assign project_id = page.project | prepend: "/projects/" | append: "/" %}
+	{% assign project = site.projects | where: "url", project_id | first %}
+	{% include project-summary.html project=project %}
+</div>
+{% endif %}
 
 <h2>Keep reading</h2>
 <ol class="post-links post-list">
