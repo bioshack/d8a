@@ -8,16 +8,26 @@ show_in_navigation: false
 ---
 
 <p>
-  Build 3
+  Build 4
 </p>
 
-<ul>
-{% for p in site.posts do %}
-  {% if p.author == post.author %}
-    <li><a href="{{ p.url }}">{{ p.title }}</a></li>
-  {% endif %}
+
+{% capture rawauthors %}{% for post in site.posts %}{% if post.author %}{{ post.author }}|{% endif %}{% endfor %}{% endcapture %}
+{% assign authors = rawauthors | split:'|' | sort %}
+
+<section id="site-authors">
+{% for author in authors %}
+  {% capture rawposts %}{% for post in site.posts %}{% if post.author == author %}{{ post.title }}*{{ post.url }}|{% endif %}{% endfor %}{% endcapture %}
+  {% assign posts = rawposts | split:'|' | sort %}
+  <h2 id="{{ author | downcase }}-ref">{{ author }}</h2>
+  {% for post in posts %}
+  <ul>
+    {% assign parts = post | split:'*' %}
+    <li><a href="{{ BASE_PATH }}{{ parts[1] }}">{{ parts[0] }}</a></li>
+  </ul>
+  {% endfor %}
 {% endfor %}
-</ul>
+</section>
 
 <h3>Authors and Projects</h3>
 
