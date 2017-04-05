@@ -3,8 +3,8 @@ title: Retrogene
 permalink: /retrogene
 date: 2016-07-15 00:00:00
 tags: DNA
-author: 
-project: retrogene
+author:
+project:
 image: /images/retrogene.jpg
 large_header: false
 ---
