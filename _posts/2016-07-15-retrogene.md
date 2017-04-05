@@ -1,10 +1,10 @@
 ---
-title: Retrogene
+title: About Retrogene
 permalink: /retrogene
 date: 2016-07-15 00:00:00
 tags: DNA
-author:
-project:
+author: megan
+project: retrogene
 image: /images/retrogene.jpg
 large_header: false
 ---
