@@ -2,7 +2,7 @@
 title: Retrogene
 permalink: /retrogene
 date: 2016-07-15 00:00:00
-tags: DNA, DIV
+tags: DNA DIV
 author: megan
 image: /images/retrogene.jpg
 large_header: false
