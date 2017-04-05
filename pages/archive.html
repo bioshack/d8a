@@ -8,7 +8,7 @@ show_in_navigation: false
 ---
 
 <p>
-  Build 5
+  Build 6
 </p>
 
 
@@ -27,7 +27,6 @@ show_in_navigation: false
 {% endcapture %}
 
 {% assign posts = rawposts | split:'|' | sort %}
-{% assign parts = post | split:'*' %}
   
 <section id="site-authors">
 {% for author in authors %}
@@ -36,7 +35,7 @@ show_in_navigation: false
   <h2 id="{{ author | downcase }}-ref">{{ author }}</h2>
   {% for post in posts %}
   <ul>
-
+    {% assign parts = post | split:'*' %}
     <li><a href="{{ BASE_PATH }}{{ parts[1] }}">{{ parts[0] }}</a></li>
   </ul>
   {% endfor %}
