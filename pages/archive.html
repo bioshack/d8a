@@ -10,6 +10,7 @@ show_in_navigation: false
 <p>
   {% assign author_id = include.post.author | prepend: "/people/" | append: "/" %}
   {% assign author = site.people | where: "url", author_id | first %}
+  Build 1
 </p>
 
 <h3>Authors and Projects</h3>
