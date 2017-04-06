@@ -10,16 +10,7 @@ show_in_navigation: false
 
 <p>You are viewing posts and information about {{ page.title }}</p>
 
-<h3>Posts by {{ page.title}}</h3>
 
-<ul class="staff-list">
-{% assign people = site.people | where: 'member', page.member %}
-	{% for member in site.people %}
-		<li class="staff">
-		  {% include staff-member.html member=member %}
-		</li>
-	{% endfor %}
-</ul>
 
 <h3>Posts by {{ page.title}}</h3>
 
