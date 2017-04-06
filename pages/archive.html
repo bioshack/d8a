@@ -8,7 +8,7 @@ show_in_navigation: false
 ---
 
 <p>
-  Build 21
+  Build 22
 </p>
  
 {% capture rawauthors %}{% for post in site.posts %}{% if post.author %}{{ post.author }}|{% endif %}{% endfor %}{% endcapture %}
@@ -62,6 +62,7 @@ show_in_navigation: false
 </div>
 
 <h3>Posts by Tag</h3>
+<div class="tag-list" id="site-tags">
 {% for tag in site.tags %}
   <h4 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h4>
   <ul>
@@ -70,3 +71,4 @@ show_in_navigation: false
   {% endfor %}
   </ul>
 {% endfor %}
+</div>
