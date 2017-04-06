@@ -1,7 +1,5 @@
 ---
 title: BioShack
-permalink: /bioshack
-member: bioshack
 call_to_action: blog
 background_image:
 large_header: false
@@ -24,7 +22,8 @@ show_in_navigation: false
 <h3>Posts by {{ page.title}}</h3>
 
 <ol class="post-links post-list">
-{% assign posts = site.posts | where: 'author', slugify:page.title %}
+{% assign title = page.title | slugify %}
+{% assign posts = site.posts | where: 'author', title %}
   {% for post in posts %}
 		{% include post-summary.html post=post %}
 	{% endfor %}
