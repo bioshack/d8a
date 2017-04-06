@@ -60,6 +60,7 @@ defaults:
       path: ""
       type: "posts"
     values:
+      permalink: "/blog/:title/"
       layout: post
       _comments:
         image: Shown in social shares and the blog list.
