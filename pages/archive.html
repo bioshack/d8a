@@ -8,7 +8,13 @@ show_in_navigation: false
 ---
 
 <p>
-  Build 23
+  View posts categorized by <a href="#authors">authors</a>, <a href="#projects">projects</a>, and <a href="#tags">tags</a>:
+</p>
+
+<p>
+  {% for tag in site.tags %}
+    <a href="#{{ tag[0] | slugify }}" class="fa fa-tag">{{ tag[0] }}</a> &nbsp;
+  {% endfor %}
 </p>
  
 {% capture rawauthors %}{% for post in site.posts %}{% if post.author %}{{ post.author }}|{% endif %}{% endfor %}{% endcapture %}
@@ -17,22 +23,8 @@ show_in_navigation: false
 {% capture rawprojects %}{% for post in site.posts %}{% if post.project %}{{ post.project }}|{% endif %}{% endfor %}{% endcapture %}
 {% assign projects = rawprojects | split:'|' | sort %}
 
-<h3>Authors and Projects</h3>
-<p>
-  {% for category in site.categories %}
-    <a href="#{{ category[0] | slugify }}" class="fa fa-tag">{{ category[0] }}</a> &nbsp;
-  {% endfor %}
-</p>
-
-<h3>Categories and Tags</h3>
-<p>
-  {% for tag in site.tags %}
-    <a href="#{{ tag[0] | slugify }}" class="fa fa-tag">{{ tag[0] }}</a> &nbsp;
-  {% endfor %}
-</p>
-
-<h3>Posts by Author</h3>
-<div class="tag-list" id="site-authors">
+<h3 id="authors">Posts by Author</h3>
+<div class="tag-list">
 {% for author in authors %}
   {% capture rawposts %}{% for post in site.posts %}{% if post.author == author %}{{ post.title }}*{{ post.url }}|{% endif %}{% endfor %}{% endcapture %}
   {% assign posts = rawposts | split:'|' | sort %}
@@ -46,8 +38,8 @@ show_in_navigation: false
 {% endfor %}
 </div>
 
-<h3>Posts by Project</h3>
-<div class="tag-list" id="site-projects">
+<h3 id="projects">Posts by Project</h3>
+<div class="tag-list">
 {% for project in projects %}
   {% capture rawposts %}{% for post in site.posts %}{% if post.project == project %}{{ post.title }}*{{ post.url }}|{% endif %}{% endfor %}{% endcapture %}
   {% assign posts = rawposts | split:'|' | sort %}
@@ -61,8 +53,8 @@ show_in_navigation: false
 {% endfor %}
 </div>
 
-<h3>Posts by Tag</h3>
-<div class="tag-list" id="site-tags">
+<h3 id="tags">Posts by Tag</h3>
+<div class="tag-list">
 {% for tag in site.tags %}
   <h4 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h4>
   <ul>
