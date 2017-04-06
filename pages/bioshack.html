@@ -24,7 +24,7 @@ show_in_navigation: false
 <h3>Posts by {{ page.title}}</h3>
 
 <ol class="post-links post-list">
-{% assign posts = site.posts | where: 'author', page.title | slugify %}
+{% assign posts = site.posts | where: 'author', 'page.title | slugify' %}
   {% for post in posts %}
 		{% include post-summary.html post=post %}
 	{% endfor %}
