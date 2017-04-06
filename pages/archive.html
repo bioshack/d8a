@@ -28,7 +28,7 @@ show_in_navigation: false
 {% for author in authors %}
   {% capture rawposts %}{% for post in site.posts %}{% if post.author == author %}{{ post.title }}*{{ post.url }}|{% endif %}{% endfor %}{% endcapture %}
   {% assign posts = rawposts | split:'|' | sort %}
-  <h4 id="{{ author | downcase }}-ref">{{ author }}</h4>
+  <h4 id="{{ author | downcase }}">{{ author }}</h4>
   {% for post in posts %}
   <ul>
     {% assign parts = post | split:'*' %}
