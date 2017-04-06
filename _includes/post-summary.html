@@ -12,13 +12,13 @@
       {% if include.post.author %}
       {% assign author_id = include.post.author | prepend: "/people/" | append: "/" %}
       {% assign author = site.people | where: "url", author_id | first %}
-      <img src="{% include relative-src.html src=author.image %}" alt="Photo of {{ author.name }}" width="30" height="30"> {{ author.name }} &nbsp;
+      <img src="{% include relative-src.html src=author.image %}" alt="Photo of {{ author.name }}" width="30" height="30"> <a href="{{ site.baseurl }}/archive/#{{ author.name | slugify }}">{{ author.name }}</a> &nbsp;
       {% endif %}
       
       {% if include.post.project %}
       {% assign project_id = include.post.project | prepend: "/projects/" | append: "/" %}
       {% assign project = site.projects | where: "url", project_id | first %}
-      <img src="{% include relative-src.html src=project.image %}" alt="Photo of {{ project.name }}" width="30" height="30"> {{ project.name }}
+      <img src="{% include relative-src.html src=project.image %}" alt="Photo of {{ project.name }}" width="30" height="30"> <a href="{{ site.baseurl }}/archive/#{{ project.name | slugify }}">{{ project.name }}</a>
       {% endif %}
     </p>
   </div>
