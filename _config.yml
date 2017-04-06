@@ -70,7 +70,7 @@ defaults:
       type: "people"
     values:
       output: true
-      permalink: /:collection/:name
+      permalink: /people/:name
       layout: people
 
 permalink: pretty
