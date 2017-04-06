@@ -22,7 +22,7 @@ social:
     link: https://twitter.com/bioshack
     icon: twitter
   - name: Website
-    link: http://bioshack.github.com
+    link: http://bioshack.github.io
     icon: external-link
 testimonial: Data is at the heart of scientific research and we believe science should be both open and responsible. The future of deep learning depends on all of us!
 ---
