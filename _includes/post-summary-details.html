@@ -8,6 +8,6 @@
 
 	{% for tag in include.post.tags %}
 		{% unless forloop.first %}&bull;{% endunless %}
-		<a class="post-summary-tag" href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+		<a class="post-summary-tag" href="{{ site.baseurl }}/archive/#{{ tag | slugify }}">{{ tag }}</a>
 	{% endfor %}
 </p>

@@ -12,6 +12,9 @@ show_in_navigation: false
 </p>
 
 <p>
+  {% for project in site.projects %}
+    <a href="#{{ project[0] | slugify }}" class="fa fa-tag">{{ project[0] }}</a> &nbsp;
+  {% endfor %}
   {% for tag in site.tags %}
     <a href="#{{ tag[0] | slugify }}" class="fa fa-tag">{{ tag[0] }}</a> &nbsp;
   {% endfor %}
@@ -28,7 +31,7 @@ show_in_navigation: false
 {% for author in authors %}
   {% capture rawposts %}{% for post in site.posts %}{% if post.author == author %}{{ post.title }}*{{ post.url }}|{% endif %}{% endfor %}{% endcapture %}
   {% assign posts = rawposts | split:'|' | sort %}
-  <h4 id="{{ author | downcase }}">{{ author }}</h4>
+  <h4 id="{{ author | slugify }}">{{ author }}</h4>
   {% for post in posts %}
   <ul>
     {% assign parts = post | split:'*' %}
@@ -43,7 +46,7 @@ show_in_navigation: false
 {% for project in projects %}
   {% capture rawposts %}{% for post in site.posts %}{% if post.project == project %}{{ post.title }}*{{ post.url }}|{% endif %}{% endfor %}{% endcapture %}
   {% assign posts = rawposts | split:'|' | sort %}
-  <h4 id="{{ project | downcase }}-ref">{{ project }}</h4>
+  <h4 id="{{ project | slugify }}">{{ project }}</h4>
   {% for post in posts %}
   <ul>
     {% assign parts = post | split:'*' %}

@@ -4,7 +4,7 @@ permalink: /retrogene
 date: 2016-07-15 00:00:00
 author: megan
 project: retrogene
-tags: DNA
+tags: DNA DIV
 image: /images/retrogene.jpg
 large_header: false
 ---
