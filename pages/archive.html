@@ -8,7 +8,7 @@ show_in_navigation: false
 ---
 
 <p>
-  Build 12
+  Build 13
 </p>
  
 {% capture rawauthors %}{% for post in site.posts %}{% if post.author %}{{ post.author }}|{% endif %}{% endfor %}{% endcapture %}
@@ -32,6 +32,7 @@ show_in_navigation: false
 </p>
 
 <h3>Posts by Author</h3>
+<section id="site-authors">
 {% for author in authors %}
   {% capture rawposts %}{% for post in site.posts %}{% if post.author == author %}{{ post.title }}*{{ post.url }}|{% endif %}{% endfor %}{% endcapture %}
   {% assign posts = rawposts | split:'|' | sort %}
@@ -43,6 +44,7 @@ show_in_navigation: false
   </ul>
   {% endfor %}
 {% endfor %}
+</section>
 
 <h3>Posts by Tag</h3>
 {% for tag in site.tags %}
