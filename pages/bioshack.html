@@ -14,7 +14,7 @@ show_in_navigation: false
 
 <ul class="staff-list">
 {% assign members = site.people | where: 'member', page.member %}
-	{% for member in site.people %}
+	{% for member in members %}
 		<li class="staff">
 		  {% include staff-member.html member=member %}
 		</li>
