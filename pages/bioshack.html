@@ -1,0 +1,29 @@
+---
+title: BioShack
+permalink: /bioshack
+member: bioshack
+call_to_action: blog
+background_image:
+large_header: false
+show_in_navigation: false
+---
+
+<p>You are viewing posts and information about {{ page.title }}</p>
+
+<h3>Posts by {{ page.title}}</h3>
+
+<ul class="staff-list">
+{% assign members = site.people | where: 'member', page.member %}
+	{% for member in site.people %}
+		<li class="staff">
+		  {% include staff-member.html member=member %}
+		</li>
+	{% endfor %}
+</ul>
+
+<h3>Posts by {{ page.title}}</h3>
+
+{% assign posts = site.posts | where: 'author', page.member %}
+{% for post in posts %}
+  {% include post.html %}
+{% endfor %}
