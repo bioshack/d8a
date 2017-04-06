@@ -27,5 +27,5 @@ show_in_navigation: false
 {% assign posts = site.posts | where: 'author', page.member %}
   {% for post in posts %}
 		{% include post-summary.html post=post %}
-	{% endif %}
+	{% endfor %}
 </ol>
