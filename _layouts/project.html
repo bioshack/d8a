@@ -8,7 +8,7 @@ call_to_action: blog
 <h3>Info About {{ page.title}}</h3>
 
 <ul class="staff-list">
-{% assign project = site.projects | where: 'name', page.title %}
+{% assign projects = site.projects | where: 'name', page.title %}
 	{% for project in projects %}
 		<li class="staff">
 		  {% include project-summary.html project=project %}
