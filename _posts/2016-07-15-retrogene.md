@@ -3,7 +3,9 @@ title: About Retrogene
 date: 2016-07-15 00:00:00
 author: megan
 project: retrogene
-tags: DNA DIV
+tags:
+  - DNA
+  - DIV
 image: /images/retrogene.jpg
 large_header: false
 ---
