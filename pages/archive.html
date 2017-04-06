@@ -13,7 +13,7 @@ show_in_navigation: false
 
 <p>
   {% for project in site.projects %}
-    <a href="#{{ include.project.name[0] | slugify }}" class="fa fa-tag">{{ include.project.name[0] }}</a>&nbsp;
+    <a href="#{{ include.project.name | slugify }}" class="fa fa-tag">{{ include.project.name }}</a>&nbsp;
   {% endfor %}
   {% for tag in site.tags %}
     <a href="#{{ tag[0] | slugify }}" class="fa fa-tag">{{ tag[0] }}</a>&nbsp;
