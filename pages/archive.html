@@ -8,7 +8,7 @@ show_in_navigation: false
 ---
 
 <p>
-  Build 20
+  Build 21
 </p>
  
 {% capture rawauthors %}{% for post in site.posts %}{% if post.author %}{{ post.author }}|{% endif %}{% endfor %}{% endcapture %}
@@ -37,6 +37,21 @@ show_in_navigation: false
   {% capture rawposts %}{% for post in site.posts %}{% if post.author == author %}{{ post.title }}*{{ post.url }}|{% endif %}{% endfor %}{% endcapture %}
   {% assign posts = rawposts | split:'|' | sort %}
   <h4 id="{{ author | downcase }}-ref">{{ author }}</h4>
+  {% for post in posts %}
+  <ul>
+    {% assign parts = post | split:'*' %}
+    <li><a href="{{ BASE_PATH }}{{ parts[1] }}">{{ parts[0] }}</a></li>
+  </ul>
+  {% endfor %}
+{% endfor %}
+</div>
+
+<h3>Posts by Project</h3>
+<div class="tag-list" id="site-projects">
+{% for project in pojects %}
+  {% capture rawposts %}{% for post in site.posts %}{% if post.project == project %}{{ post.title }}*{{ post.url }}|{% endif %}{% endfor %}{% endcapture %}
+  {% assign posts = rawposts | split:'|' | sort %}
+  <h4 id="{{ project | downcase }}-ref">{{ project }}</h4>
   {% for post in posts %}
   <ul>
     {% assign parts = post | split:'*' %}
