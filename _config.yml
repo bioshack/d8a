@@ -60,18 +60,10 @@ defaults:
       path: ""
       type: "posts"
     values:
-      permalink: "/blog/:title/"
+
       layout: post
       _comments:
         image: Shown in social shares and the blog list.
-  -
-    scope:
-      path: ""
-      type: "people"
-    values:
-      output: true
-      permalink: /people/:name
-      layout: people
 
 permalink: pretty
 
