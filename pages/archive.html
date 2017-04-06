@@ -8,18 +8,16 @@ show_in_navigation: false
 ---
 
 <p>
-  Build 10
+  Build 11
 </p>
  
-  {% capture rawauthors %}{% for post in site.posts %}{% if post.author %}{{ post.author }}|{% endif %}{% endfor %}{% endcapture %}
+{% capture rawauthors %}{% for post in site.posts %}{% if post.author %}{{ post.author }}|{% endif %}{% endfor %}{% endcapture %}
 {% assign authors = rawauthors | split:'|' | sort %}
 
-{% for author in authors %}
-  {% capture rawposts %}{% for post in site.posts %}{% if post.author == author %}{{ post.title }}*{{ post.url }}|{% endif %}{% endfor %}{% endcapture %}
-  {% assign posts = rawposts | split:'|' | sort %}
+{% capture rawprojects %}{% for post in site.posts %}{% if post.project %}{{ post.project }}|{% endif %}{% endfor %}{% endcapture %}
+{% assign projects = rawprojects | split:'|' | sort %}
 
 <h3>Authors and Projects</h3>
-
 <p>
   {% for category in site.categories %}
     <a href="#{{ category[0] | slugify }}" class="fa fa-tag">{{ category[0] }}</a> &nbsp;
@@ -27,7 +25,6 @@ show_in_navigation: false
 </p>
 
 <h3>Categories and Tags</h3>
-
 <p>
   {% for tag in site.tags %}
     <a href="#{{ tag[0] | slugify }}" class="fa fa-tag">{{ tag[0] }}</a> &nbsp;
@@ -35,41 +32,31 @@ show_in_navigation: false
 </p>
 
 <h3>Posts by Author</h3>
-
+{% for author in authors %}
+  {% capture rawposts %}
+    {% for post in site.posts %}
+      {% if post.author == author %}{{ post.title }}*{{ post.url }}|{% endif %}
+    {% endfor %}
+  {% endcapture %}
+  {% assign posts = rawposts | split:'|' | sort %}
   <h4 id="{{ author | downcase }}-ref">{{ author }}</h4>
   {% for post in posts %}
-  <ul>
-    {% assign parts = post | split:'*' %}
-    <li><a href="{{ BASE_PATH }}{{ parts[1] }}">{{ parts[0] }}</a></li>
-  </ul>
+    <ul>
+      {% assign parts = post | split:'*' %}
+      <li><a href="{{ BASE_PATH }}{{ parts[1] }}">{{ parts[0] }}</a></li>
+    </ul>
   {% endfor %}
 {% endfor %}
 
-
-
-<h3>Posts by Author or Tag</h3>
-
-{% for category in site.categories %}
-  <h4 id="{{ category[0] | slugify }}">{{ category[0] }}</h4>
-    <ul>
-      {% for post in category[1] %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <small> {{ post.date | date: '%B %d, %Y' }}</small>
-        </li>
-      {% endfor %}
-    </ul>
-{% endfor %}
-
-
+<h3>Posts by Tag</h3>
 {% for tag in site.tags %}
   <h4 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h4>
-    <ul>
-      {% for post in tag[1] %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <small> {{ post.date | date: '%B %d, %Y' }}</small>
-        </li>
-      {% endfor %}
-    </ul>
+  <ul>
+    {% for post in tag[1] %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <small> {{ post.date | date: '%B %d, %Y' }}</small>
+      </li>
+    {% endfor %}
+  </ul>
 {% endfor %}
