@@ -1,6 +1,5 @@
 ---
 name: Megan
-link: "http://megdna.github.io"
 image: "https://avatars.githubusercontent.com/u/8283950"
 title: Data Scientist
 social:
@@ -25,6 +24,9 @@ social:
   - name: YouTube
     link: https://www.youtube.com/megdna
     icon: youtube
+  - name: Website
+    link: http://megdna.github.io
+    icon: external-link
 testimonial: Data and statistics are like the notes and melodies of a song, the genes and natural processes that tell the ultimate story of life. We must be the instruments for positive change.
 ---
 

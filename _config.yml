@@ -70,7 +70,7 @@ defaults:
       type: "people"
     values:
       permalink: "/people/:title/"
-      layout: page
+      layout: people
 
 permalink: pretty
 
