@@ -13,7 +13,7 @@ show_in_navigation: false
 <h3>Information About {{ page.title}}</h3>
 
 <ul class="staff-list">
-{% assign members = site.people | where: 'member', page.member %}
+{% assign members = site.people | where: 'name', page.title %}
 	{% for member in members %}
 		<li class="staff">
 		  {% include staff-member.html member=member %}
