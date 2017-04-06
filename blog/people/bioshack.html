@@ -1,14 +1,15 @@
 ---
 title: BioShack
+link: "http://bioshack.github.io"
 call_to_action: blog
 background_image:
 large_header: false
 show_in_navigation: false
 ---
 
-<p>You are viewing posts and information about {{ page.title }}</p>
+<p>You are viewing posts and information about <a href="{{page.link}}" taget="_blank">{{ page.title }}</a>.</p>
 
-<h3>Information About {{ page.title}}</h3>
+<h3>About {{ page.title}}</h3>
 
 <ul class="staff-list">
 {% assign members = site.people | where: 'name', page.title %}

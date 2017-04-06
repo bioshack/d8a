@@ -64,6 +64,13 @@ defaults:
       layout: post
       _comments:
         image: Shown in social shares and the blog list.
+  -
+    scope:
+      path: ""
+      type: "people"
+    values:
+      permalink: "/people/:title/"
+      layout: page
 
 permalink: pretty
 

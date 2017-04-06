@@ -1,6 +1,5 @@
 ---
 name: BioShack
-link: "http://bioshack.github.io"
 image: "https://avatars.githubusercontent.com/u/11539735"
 title: Citizen Scientists
 social:

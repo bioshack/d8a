@@ -3,7 +3,7 @@
 		<img src="{% include relative-src.html src=include.member.image %}" alt="Photo of {{ include.member.name }}" width="120" height="120">
 	</div>
 	<ul class="staff-info">
-		<li><a href="{{ include.member.link }}" target="_blank">{{ include.member.name }}</a></li>
+		<li><a href="/people/{{ include.member }}">{{ include.member.name }}</a></li>
 		<li><small>{{ include.member.title }}</small></li>
 		<li>
 		  {% for link in include.member.social %}
