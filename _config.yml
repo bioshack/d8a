@@ -66,10 +66,11 @@ defaults:
         image: Shown in social shares and the blog list.
   -
     scope:
-      path: "/blog/people/"
+      path: ""
       type: "people"
     values:
-      permalink: "/people/:title/"
+      output: true
+      permalink: /:collection/:name
       layout: people
 
 permalink: pretty
