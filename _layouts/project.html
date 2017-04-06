@@ -8,10 +8,10 @@ call_to_action: blog
 <h3>Info About {{ page.title}}</h3>
 
 <ul class="staff-list">
-{% assign members = site.people | where: 'name', page.title %}
-	{% for member in members %}
+{% assign project = site.projects | where: 'name', page.title %}
+	{% for project in projects %}
 		<li class="staff">
-		  {% include staff-member.html member=member %}
+		  {% include project-summary.html project=project %}
 		</li>
 	{% endfor %}
 </ul>
@@ -20,7 +20,7 @@ call_to_action: blog
 
 <ol class="post-links post-list">
 {% assign title = page.title | slugify %}
-{% assign posts = site.posts | where: 'author', title %}
+{% assign posts = site.posts | where: 'project', title %}
   {% for post in posts %}
 		{% include post-summary.html post=post %}
 	{% endfor %}
