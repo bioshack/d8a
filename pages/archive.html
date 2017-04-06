@@ -8,29 +8,24 @@ show_in_navigation: false
 ---
 
 <p>
-  Build 8
+  Build 9
 </p>
 
 
 {% capture rawauthors %}{% for post in site.posts %}{% if post.author %}{{ post.author }}|{% endif %}{% endfor %}{% endcapture %}
 {% assign authors = rawauthors | split:'|' | sort %}
 
-<section id="site-authors">
 {% for author in authors %}
   {% capture rawposts %}{% for post in site.posts %}{% if post.author == author %}{{ post.title }}*{{ post.url }}|{% endif %}{% endfor %}{% endcapture %}
   {% assign posts = rawposts | split:'|' | sort %}
   <h4 id="{{ author | downcase }}-ref">{{ author }}</h4>
-
-  {% for post in post[1] %}
+  {% for post in posts %}
   <ul>
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <small> {{ post.date | date: '%B %d, %Y' }}</small>
-    </li>
+    {% assign parts = post | split:'*' %}
+    <li><a href="{{ BASE_PATH }}{{ parts[1] }}">{{ parts[0] }}</a></li>
   </ul>
   {% endfor %}
 {% endfor %}
-</section>
 
 <h3>Authors and Projects</h3>
 
