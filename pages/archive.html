@@ -8,7 +8,7 @@ show_in_navigation: false
 ---
 
 <p>
-  Build 7
+  Build 8
 </p>
 
 
@@ -20,8 +20,8 @@ show_in_navigation: false
   {% capture rawposts %}{% for post in site.posts %}{% if post.author == author %}{{ post.title }}*{{ post.url }}|{% endif %}{% endfor %}{% endcapture %}
   {% assign posts = rawposts | split:'|' | sort %}
   <h4 id="{{ author | downcase }}-ref">{{ author }}</h4>
-  {% assign parts = post | split:'*' %}
-  {% for post in parts[1] %}
+
+  {% for post in post[1] %}
   <ul>
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
