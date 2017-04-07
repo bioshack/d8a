@@ -4,10 +4,8 @@ layout: page
 
 <p>You are viewing posts tagged with {{ page.title }}. View all tags <a href="/blog/tags">here</a>.</p>
 
-<ol class="post-links post-list">
-{% assign title = page.title | slugify %}
-{% assign posts = site.posts | where: 'tag', title %}
-  {% for post in posts %}
+<ol class="post-list">
+	{% for post in page.posts %}
 		{% include post-summary.html post=post %}
 	{% endfor %}
 </ol>
