@@ -19,7 +19,7 @@ large_header: false
 	{% for member in site.people %}
 		<blockquote class="testimonial">
 			<p class="testimonial-message">{{ member.testimonial }}</p>
-			<p class="testimonial-author"><img src="{% include relative-src.html src=member.image %}" alt="Photo of {{ member.name }}"> <a href="/people/{{ member.name | slugify }}">{{ member.name }}</a></p>
+			<p class="testimonial-author"><img src="{% include relative-src.html src=member.image %}" alt="Photo of {{ member.name }}"> <a href="{{ site.baseurl }}/people/{{ member.name | slugify }}">{{ member.name }}</a></p>
 		</blockquote>
 	{% endfor %}
 </div>

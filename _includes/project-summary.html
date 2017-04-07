@@ -3,7 +3,7 @@
 		<img src="{% include relative-src.html src=include.project.image %}" alt="Photo of {{ include.project.name }}" width="120" height="120">
 	</div>
 	<ul class="staff-info">
-		<li><a href="/projects/{{ include.project.name | slugify }}">{{ include.project.name }}</a></li>
+		<li><a href="{{ site.baseurl }}/projects/{{ include.project.name | slugify }}">{{ include.project.name }}</a></li>
 		<li><small>{{ include.project.title }}</small></li>
 		<li>
       {% for link in include.project.social %}
