@@ -20,7 +20,9 @@ The following directories and their contents are *Copyright D8A*. You may not re
 - /_people/
 - /_posts/
 - /_projects/
+- /blog/
 - /images/
-- /pages/
+- /people/
+- /projects/
 
 All other files are [MIT Licensed](http://opensource.org/licenses/mit-license.html). Feel free to use the code as you please. If you do, be sure to credit as appropriate.
