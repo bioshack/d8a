@@ -5,7 +5,7 @@ layout: page
 <p>You are viewing posts tagged with {{ page.title }}. View all tags <a href="/blog/tags">here</a>.</p>
 
 <ol class="post-links post-list">
-{% assign posts = site.posts | where: 'tag', page.title %}
+{% assign posts = site.posts | where: 'tags', page.title %}
   {% for post in posts %}
 		{% include post-summary.html post=post %}
 	{% endfor %}
