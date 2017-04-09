@@ -8,7 +8,7 @@ social:
     icon: github
 members:
   - bioshack
-  - 
+  - megan
 ---
 
 Network connecting edge devices with fog computing for the life sciences

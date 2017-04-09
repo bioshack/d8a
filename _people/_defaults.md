@@ -6,5 +6,6 @@ social:
   - name:
     link:
     icon:
+projects:
 testimonial:
 ---
