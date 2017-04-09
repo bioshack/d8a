@@ -28,7 +28,7 @@ projects:
   - Codons
   - Retrogene
   - Robozome
-  - VoyaGene
+  - 
 testimonial: Data is at the heart of scientific research and we believe science should be both open and responsible. The future of deep learning depends on all of us!
 ---
 
