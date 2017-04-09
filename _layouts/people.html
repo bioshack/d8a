@@ -24,3 +24,15 @@ layout: page
 		{% include post-summary.html post=post %}
 	{% endfor %}
 </ol>
+
+<h3>Projects by {{ page.title}}</h3>
+
+<ul class="staff-list">
+{% assign title = page.title | slugify %}
+{% assign projects = site.projects | where: 'members', title %}
+	{% for project in projects %}
+		<li class="staff">
+		  {% include project-summary.html project=project %}
+		</li>
+	{% endfor %}
+</ul>

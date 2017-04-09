@@ -6,6 +6,9 @@ social:
   - name: Github Repo
     link: https://github.com/retrogene
     icon: github
+members:
+  - bioshack
+  - megan
 ---
 
 Research initiative focused on ancient DNA, genome evolution, and native ancestry

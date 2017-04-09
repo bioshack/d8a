@@ -6,4 +6,5 @@ social:
   - name:
     link:
     icon:
+members:
 ---

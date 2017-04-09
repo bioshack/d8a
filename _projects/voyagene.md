@@ -6,6 +6,9 @@ social:
   - name: Github Repo
     link: https://github.com/voyagene
     icon: github
+members:
+  - bioshack
+  - megan
 ---
 
 Tool to search and explore genes or traits

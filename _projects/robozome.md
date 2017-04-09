@@ -6,6 +6,9 @@ social:
   - name: Github Repo
     link: https://github.com/robozome
     icon: github
+members:
+  - bioshack
+  - megan
 ---
 
 Systems biology platform for network precision medicine
