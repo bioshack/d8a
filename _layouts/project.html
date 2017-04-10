@@ -15,18 +15,15 @@ layout: page
 	{% endfor %}
 </ul>
 
-<div>
+<h3>Posts On {{ page.title}}</h3>
+
+<ol class="post-links post-list">
 {% assign title = page.title | slugify %}
 {% assign posts = site.posts | where: 'project', title %}
-{% if project==title in posts %}
-  <h3>Posts On {{ page.title}}</h3>
-  <ol class="post-links post-list">
-    {% for post in posts %}
-		  {% include post-summary.html post=post %}
-	  {% endfor %}
-  </ol>
-{% endif %}
-</div>
+  {% for post in posts %}
+		{% include post-summary.html post=post %}
+	{% endfor %}
+</ol>
 
 <h3>People At {{ page.title}}</h3>
 
