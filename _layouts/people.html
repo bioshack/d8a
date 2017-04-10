@@ -15,16 +15,6 @@ layout: page
 	{% endfor %}
 </ul>
 
-<h3>Posts by {{ page.title}}</h3>
-
-<ol class="post-links post-list">
-{% assign title = page.title | slugify %}
-{% assign posts = site.posts | where: 'author', title %}
-  {% for post in posts %}
-		{% include post-summary.html post=post %}
-	{% endfor %}
-</ol>
-
 <h3>Projects by {{ page.title}}</h3>
 
 <ul class="staff-list">
@@ -35,3 +25,13 @@ layout: page
 		</li>
 	{% endfor %}
 </ul>
+
+<h3>Posts by {{ page.title}}</h3>
+
+<ol class="post-links post-list">
+{% assign title = page.title | slugify %}
+{% assign posts = site.posts | where: 'author', title %}
+  {% for post in posts %}
+		{% include post-summary.html post=post %}
+	{% endfor %}
+</ol>
