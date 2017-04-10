@@ -7,8 +7,8 @@ social:
     link: https://github.com/voyagene
     icon: github
 members:
-  - bioshack
-  - megan
+  - BioShack
+  - Megan
 ---
 
 Tool to search and explore genes or traits

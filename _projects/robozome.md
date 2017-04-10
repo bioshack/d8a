@@ -7,8 +7,8 @@ social:
     link: https://github.com/robozome
     icon: github
 members:
-  - bioshack
-  - megan
+  - BioShack
+  - Megan
 ---
 
 Systems biology platform for network precision medicine

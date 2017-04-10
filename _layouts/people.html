@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<p>You are viewing posts, projects and information about {{ page.title }}. View more members <a href="/about">here</a>.</p>
+<p>You are viewing information about {{ page.title }}. View more members <a href="/about">here</a>.</p>
 
 <h3>About {{ page.title}}</h3>
 
@@ -28,8 +28,7 @@ layout: page
 <h3>Projects by {{ page.title}}</h3>
 
 <ul class="staff-list">
-{% assign title = page.title | slugify %}
-{% assign projects = site.projects | where: 'members', title %}
+{% assign projects = site.projects | where: 'members', page.title %}
 	{% for project in projects %}
 		<li class="staff">
 		  {% include project-summary.html project=project %}

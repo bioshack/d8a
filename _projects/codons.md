@@ -7,8 +7,8 @@ social:
     link: https://github.com/codons
     icon: github
 members:
-  - bioshack
-  - megan
+  - BioShack
+  - Megan
 ---
 
 Network connecting edge devices with fog computing for the life sciences
