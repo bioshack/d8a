@@ -4,7 +4,7 @@ layout: page
 
 <p>You are viewing information about {{ page.title }}. View more projects <a href="/projects">here</a>.</p>
 
-<h3>Info About {{ page.title}}</h3>
+<h3>About {{ page.title}}</h3>
 
 <ul class="staff-list">
 {% assign projects = site.projects | where: 'name', page.title %}
@@ -15,7 +15,7 @@ layout: page
 	{% endfor %}
 </ul>
 
-<h3>Posts About {{ page.title}}</h3>
+<h3>Posts On {{ page.title}}</h3>
 
 <ol class="post-links post-list">
 {% assign title = page.title | slugify %}
