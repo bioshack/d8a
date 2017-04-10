@@ -15,6 +15,7 @@ layout: page
 	{% endfor %}
 </ul>
 
+<div>
 {% assign title = page.title | slugify %}
 {% assign posts = site.posts | where: 'project', title %}
 {% if post in posts %}
@@ -25,6 +26,7 @@ layout: page
 	  {% endfor %}
   </ol>
 {% endif %}
+</div>
 
 <h3>People At {{ page.title}}</h3>
 
