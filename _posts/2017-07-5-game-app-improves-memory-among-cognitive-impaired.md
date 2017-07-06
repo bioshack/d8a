@@ -9,7 +9,7 @@ image: /images/game.jpg
 large_header: false
 ---
 
-<p>A brain training game for an iPad was shown in a clinical study to improve the memory of people with mild cognitive impairment, a precursor stage to dementia. Findings from the study by a team from <a href="http://www.cam.ac.uk/research/news/brain-training-app-found-to-improve-memory-in-people-with-mild-cognitive-impairment" target="_blank">University of Cambridge</a> in the U.K. appear in the 2 July issue of the <a href="https://academic.oup.com/ijnp/article/3868827/Cognitive-Training-Using-a-Novel-Memory-Game-on-an" target="_blank"><em>International Journal of Neuropsychopharmacology</em></a>.</p>
+<p>A brain training game for iPad was shown in a clinical study to improve the memory of people with mild cognitive impairment, a precursor stage to dementia. Findings from the study by a team from <a href="http://www.cam.ac.uk/research/news/brain-training-app-found-to-improve-memory-in-people-with-mild-cognitive-impairment" target="_blank">University of Cambridge</a> in the U.K. appear in the 2 July issue of the <a href="https://academic.oup.com/ijnp/article/3868827/Cognitive-Training-Using-a-Novel-Memory-Game-on-an" target="_blank"><em>International Journal of Neuropsychopharmacology</em></a>.</p>
 
 <p>Dementia is a growing problem affecting some 47 million people worldwide, with nearly 10 million new cases diagnosed each year, according to <a href="http://www.who.int/mediacentre/factsheets/fs362/en/" target="_blank">World Health Organization</a>. Alzheimer&#8217;s disease is the most common form of dementia, accounting for 60 to 70 percent of cases, with symptoms including deterioration in memory, cognitive functions, and ability to perform everyday tasks.</p>
 
