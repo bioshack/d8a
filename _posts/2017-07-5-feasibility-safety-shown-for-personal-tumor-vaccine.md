@@ -1,11 +1,11 @@
 ---
 title: Feasibility, Safety Shown for Personal Tumor Vaccine
-date: 2017-07-5 13:00:00
+date: 2017-07-5 00:00:00
 author: bioshack
 project: 
 tags:
   - DNA
-image: /images/vaccine.jpg
+image: /images/vials.jpg
 large_header: false
 ---
 
