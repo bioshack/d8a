@@ -11,4 +11,4 @@ members:
   - Megan
 ---
 
-Research initiative focused on ancient DNA, genome evolution and native ancestry
+Research initiative focused on ancient DNA, genome diversity and evolution
