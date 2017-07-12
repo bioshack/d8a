@@ -1,6 +1,6 @@
 ---
 title: Darpa Funding Research on Brain-Digital Implants
-date: 2017-07-10 09:00:00
+date: 2017-07-10 13:00:00
 author: bioshack
 project: 
 tags:

@@ -1,6 +1,6 @@
 ---
 title: How to Turn on Genes and Coax Diatoms into Sex
-date: 2017-07-10 00:00:00
+date: 2017-07-10 09:00:00
 author: megan
 project: 
 tags:
