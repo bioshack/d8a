@@ -21,9 +21,6 @@ social:
   - name: Twitter
     link: https://twitter.com/bioshack
     icon: twitter
-  - name: Website
-    link: http://bioshack.github.io
-    icon: external-link
 projects:
   - Codons
   - Retrogene
