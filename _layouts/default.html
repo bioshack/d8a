@@ -34,7 +34,7 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe>
       </noscript>
 		{% endif %}
-	  
+
 		<header style="background-image: url('{% include relative-src.html src=page.background_image %}');" {% if page.large_header %}class="main-hero"{% endif %}>
 			<div class="container">
 				<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
@@ -42,7 +42,9 @@
 					<ul>
 						{% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
 						{% for nav_page in nav_pages %}
+						{% unless nav_page.url == "/blog/:num/" %}
 							<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a></li>
+						{% endunless %}
 						{% endfor %}
 					</ul>
 				</nav>
@@ -84,7 +86,7 @@
 		<footer>
 			<div class="container">
 				<div class="footer-columns">
-				  
+
 				  <ul class="footer-links">
 						<li>
 							<h2>Pages</h2>
@@ -95,7 +97,7 @@
 						  <li><a href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a></li>
 			  		{% endfor %}
 					</ul>
-					
+
 					<ul class="footer-links">
 						<li>
 							<h2>Social</h2>
