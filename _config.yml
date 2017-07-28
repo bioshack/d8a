@@ -32,7 +32,7 @@ social:
   - name: Twitter
     link: https://twitter.com/d8aorg
     icon: twitter
-  
+
 summary: Social enterprise specializing in the data of everything (DoE)
 email: info@d8a.org
 founded: 2016
@@ -55,6 +55,11 @@ defaults:
       layout: page
       background_image: /images/dots.png
       image: /images/logo.png
+  -
+    scope:
+      path: "blog"
+    values:
+      sitemap: false
   -
     scope:
       path: ""
