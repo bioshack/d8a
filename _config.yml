@@ -57,7 +57,7 @@ defaults:
       image: /images/logo.png
   -
     scope:
-      path: "/blog"
+      path: "/blog/:num/"
     values:
       sitemap: false
   -
