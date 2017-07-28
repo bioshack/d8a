@@ -57,11 +57,6 @@ defaults:
       image: /images/logo.png
   -
     scope:
-      path: "/blog/:num/"
-    values:
-      sitemap: false
-  -
-    scope:
       path: ""
       type: "posts"
     values:
@@ -69,6 +64,13 @@ defaults:
       layout: post
       _comments:
         image: Shown in social shares and the blog list.
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      permalink: "/blog/:num/"
+      sitemap: false
 
 permalink: pretty
 
