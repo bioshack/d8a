@@ -41,7 +41,7 @@ github_repo: "https://github.com/d8aorg/d8aorg.github.io"
 # Build
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/page/:num/"
 
 collections:
   - "people"
@@ -57,7 +57,7 @@ defaults:
       image: /images/logo.png
   -
     scope:
-      path: "blog"
+      path: "page"
     values:
       sitemap: false
   -
