@@ -66,10 +66,8 @@ defaults:
         image: Shown in social shares and the blog list.
   -
     scope:
-      path: ""
-      type: "pages"
+      path: "blog"
     values:
-      permalink: "/blog/:num/"
       sitemap: false
 
 permalink: pretty
