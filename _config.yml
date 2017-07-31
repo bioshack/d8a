@@ -21,16 +21,16 @@ cta:
 
 social:
   - name: Facebook
-    link: https://www.facebook.com/d8aorg
+    link: https://www.facebook.com/bioshack
     icon: facebook
   - name: Google+
     link: https://plus.google.com/109051831311932022793
     icon: google
   - name: LinkedIn
-    link: https://www.linkedin.com/company/d8aorg
+    link: https://www.linkedin.com/company/2178821
     icon: linkedin
   - name: Twitter
-    link: https://twitter.com/d8aorg
+    link: https://twitter.com/bioshack
     icon: twitter
 
 summary: Social enterprise specializing in the data of everything (DoE)
