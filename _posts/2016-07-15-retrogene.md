@@ -6,7 +6,7 @@ project: retrogene
 tags:
   - DNA
   - DIV
-image: /images/retrogene.jpg
+image: /images/blog/retrogene.jpg
 large_header: false
 ---
 
