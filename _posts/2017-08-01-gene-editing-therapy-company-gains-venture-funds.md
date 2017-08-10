@@ -1,7 +1,7 @@
 ---
 title: Gene Editing, Therapy Company Gains $83.5M in Venture Funds
 date: 2017-08-01 09:00:00
-author: bioshack
+author: 
 project: 
 tags:
   - DNA
