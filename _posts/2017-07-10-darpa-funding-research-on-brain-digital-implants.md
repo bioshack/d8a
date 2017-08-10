@@ -1,17 +1,17 @@
 ---
 title: Darpa Funding Research on Brain-Digital Implants
 date: 2017-07-10 13:00:00
-author: bioshack
+author: 
 project: 
 tags:
   - DNI
-image: /images/brain.jpg
+image: /images/blog/brain.jpg
 large_header: false
 ---
 
 <p>The advanced research agency in Department of Defense is supporting six new projects on neural devices that connect the brain to digital technologies to restore sensory functions. Defense Advanced Research Projects Agency, or <a href="http://www.darpa.mil/news-events/2017-07-10" target="_blank">Darpa</a>, made the awards to 4 academic labs, a research foundation, and a business.</p>
 
-<p><img src="http://d8a.org/images/brain.jpg"><br><small>(DARPA.gov)</small></p>
+<p><img src="http://d8a.org/images/blog/brain.jpg"><br><small>(DARPA.gov)</small></p>
 
 <p>The funding comes from Darpa&#8217;s <a href="http://www.darpa.mil/program/neural-engineering-system-design" target="_blank">Neural Engineering System Design</a> program that seeks to develop a high-resolution implantable connection between the brain and digital electronics. The device, says the agency, aims to be compact, about 1 cubic centimeter in size, and able to convert data between electrochemical signals in the nervous system to digital signals containing data encoded in ones and zeroes. The research is expected to cross several scientific disciplines including neuroscience, synthetic biology, photonics, and engineering.</p>
 

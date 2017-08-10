@@ -5,13 +5,13 @@ author:
 project: 
 tags:
   - DNA
-image: /images/dna2.jpg
+image: /images/blog/dna.jpg
 large_header: false
 ---
 
 <p>A biotechnology company designing treatments with gene edits and transfers using benign viruses is raising $83.5 million in its second venture funding round. With today&#8217;s announcement, <a href="https://www.homologymedicines.com/series-b" target="_blank">Homology Medicines Inc.</a> in Bedford, Massachusetts, a one year-old developer of genetic therapies for rare diseases, raised a total of $127 million since its founding.</p>
 
-<p><img src="http://d8a.org/images/dna2.jpg"><br><small>(Nogas1974, Wikimedia Commons)</small></p>
+<p><img src="http://d8a.org/images/blog/dna.jpg"><br><small>(Nogas1974, Wikimedia Commons)</small></p>
 
 <p>Homology Medicines creates treatments that perform <a href="https://www.homologymedicines.com/about" target="_blank">gene editing or transfer healthy genes</a> to replace mutations causing disease, delivered with engineered <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2570152" target="_blank">adeno-associated viruses</a>, benign viruses designed to deliver genetic material into the cells of patients with defective genes. The viruses are naturally occurring microbes that can infect cells, but do not integrate with the cell's genome or cause disease in humans, other than at most mild reactions. The company&#8217;s technique injects healthy genes in viral shells called capsids, into the target cells, where they penetrate cell membranes and deliver the healthy gene into the cell nucleus holding the DNA.</p>
 

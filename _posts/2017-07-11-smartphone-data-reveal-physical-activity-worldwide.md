@@ -1,18 +1,18 @@
 ---
 title: Smartphone Data Reveal Physical Activity Worldwide
 date: 2017-07-11 09:00:00
-author: bioshack
+author: 
 project: 
 tags:
   - D8A
   - DIV
-image: /images/steps.jpg
+image: /images/blog/steps.jpg
 large_header: false
 ---
 
 <p>A data science team tapped into smartphones of more than 717,000 people worldwide to capture the number of steps they take each day as an indicator of physical activity. Findings from the <a href="https://www.nibib.nih.gov/news-events/newsroom/nih-funded-team-uses-smartphone-data-global-study-physical-activity" target="_blank">NIH-funded</a> study by researchers at <a href="http://news.stanford.edu/2017/07/10/stanford-researchers-find-intriguing-clues-obesity-counting-steps-via-smartphones" target="_blank">Stanford University</a> in Palo Alto, California appear in yesterday&#8217;s issue of the journal <a href="http://www.nature.com/nature/journal/vaop/ncurrent/full/nature23018.html" target="_blank"><em>Nature</em></a> (paid subscription required).</p>
 
-<p><img src="http://d8a.org/images/steps.jpg"><br><small>Smartphone data from more than 68 million days of activity by 717,527 individuals across 111 countries reveal variability in physical activity around the world. (T Althoff et al, Stanford University)</small></p>
+<p><img src="http://d8a.org/images/blog/steps.jpg"><br><small>Smartphone data from more than 68 million days of activity by 717,527 individuals across 111 countries reveal variability in physical activity around the world. (T Althoff et al, Stanford University)</small></p>
 
 <p>The Stanford team led by computer science professor <a href="http://snap.stanford.edu/index.html" target="_blank">Jure Leskovec</a> is seeking techniques for harnessing the wealth of data produced by chips on mobile phones called accelerometers that sense movement of the device, for example when answering a call or when the screen orientation changes. Those same sensors respond to stepping motions, and can capture the number of steps taken by phone users.</p>
 

@@ -1,12 +1,12 @@
 ---
 title: Anti-Aging AI, Depression Genetics, Mining Genomes, Skin Delivery System
 date: 2017-08-05 09:00:00
-author: megan
+author: 
 project: 
 tags:
   - D8A
   - DNA
-image: /images/brain2.jpg
+image: /images/blog/brain2.jpg
 large_header: false
 ---
 

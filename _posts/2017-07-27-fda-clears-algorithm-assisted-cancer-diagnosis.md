@@ -1,17 +1,17 @@
 ---
 title: FDA Clears Algorithm-Assisted Cancer Diagnosis
 date: 2017-07-27 09:00:00
-author: bioshack
+author: 
 project: 
 tags:
   - DNA
-image: /images/mri.jpg
+image: /images/blog/mri.jpg
 large_header: false
 ---
 
 <p>The U.S. Food and Drug Administration cleared for marketing a diagnostics system aided by machine learning algorithms to help radiologists detect breast cancer. The system, known as QuantX, is developed by <a href="https://www.quantinsights.com/features/first-fda-clearance-for-cadx-device" target="_blank">Quantitative Insights Inc.</a>, a spin-off enterprise from University of Chicago. The company says QuantX is the first computer-aided diagnostics system that uses machine learning to evaluate breast abnormalities.</p>
 
-<p><img src="http://d8a.org/images/mri.jpg"><br><small>MRI of breast (National Cancer Institute)</small></p>
+<p><img src="http://d8a.org/images/blog/mri.jpg"><br><small>MRI of breast (National Cancer Institute)</small></p>
 
 <p><a href="https://www.quantinsights.com/services/info" target="_blank">QuantX</a>, says the company is a decision-support system for radiologists evaluating magnetic resonance images (MRIs) of breast tissue suspected of cancer. The system has software with analytics that employ machine learning algorithms to evaluate the patient&#8217;s images and medical data with a database of abnormalities from documented clinical pathology findings, producing an index value called a QI score. The company says turnaround times for diagnostics are improved, and results of the analysis add to the confidence of the radiologists&#8217; assessments.</p>
 

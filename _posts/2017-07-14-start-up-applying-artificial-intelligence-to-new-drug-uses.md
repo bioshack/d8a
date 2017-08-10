@@ -1,18 +1,18 @@
 ---
 title: Start-Up Applying Artificial Intelligence to New Drug Uses
 date: 2017-07-14 09:00:00
-author: bioshack
+author: 
 project: 
 tags:
   - D8A
   - DNA
-image: /images/ngs.png
+image: /images/blog/ngs.png
 large_header: false
 ---
 
 <p>A new enterprise is being formed to apply artificial intelligence to connect drugs in development to treatments for rare diseases and other unmet medical needs. The company, <a href="http://qrativ.bio" target="_blank">Qrative</a> &#8212; pronounced CURE-a-tive &#8212; in Cambridge, Massachusetts is starting off with $8.3 million raised in its first venture funding round.</p>
 
-<p><img src="http://d8a.org/images/ngs.png"><br><small>(Lawrence Livermore National Lab)</small></p>
+<p><img src="http://d8a.org/images/blog/ngs.png"><br><small>(Lawrence Livermore National Lab)</small></p>
 
 <p>Qrative is a joint venture of <a href="http://newsnetwork.mayoclinic.org/discussion/mayo-clinic-nference-launch-a-startup-to-discover-develop-treatments-for-diseases-with-unmet-medical-need" target="_blank">Mayo Clinic</a> in Rochester, Minnesota and <a href="http://nference.ai" target="_blank">nference</a>, a big data/biotechnology analytics business in Cambridge; the company name is spelled in all lower-case characters. The new business plans to employ nference&#8217;s artificial intelligence technology to discover treatments for unmet medical needs. The company expects to focus initially on rare disorders and diseases affecting highly target patient populations.</p>
 

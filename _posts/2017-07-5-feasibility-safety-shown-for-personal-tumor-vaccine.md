@@ -1,17 +1,17 @@
 ---
 title: Feasibility, Safety Shown for Personal Tumor Vaccine
 date: 2017-07-5 00:00:00
-author: bioshack
+author: 
 project: 
 tags:
   - DNA
-image: /images/vials.jpg
+image: /images/blog/vials.jpg
 large_header: false
 ---
 
 <p>A pilot study among individuals with a form of skin cancer shows a vaccine aiming at proteins specific to a person&#8217;s tumor is safe and can generate a complex immune response attacking the tumor. Results of the study, conducted at <a href="http://www.dana-farber.org/Newsroom/News-Releases/personal-neoantigen-vaccine-prompts-strong-anti-tumor-response-in-patients-new-study-shows.aspx" target="_blank">Dana-Farber Cancer Center</a> in Boston, testing treatments developed by <a href="http://neontherapeutics.com/wp-content/uploads/2017/07/Neon-Nature-Article-Press-Release-070517.pdf" target="_blank">Neon Therapeutics</a> in Cambridge, Massachusetts, appear in today&#8217;s issue of the journal <a href="https://www.nature.com/nature/journal/vaop/ncurrent/full/nature22991.html" target="_blank"><em>Nature</em></a> (paid subscription required).</p>
 
-<p><img src="http://d8a.org/images/vials.jpg"><br><small>(National Cancer Institute)</small></p>
+<p><img src="http://d8a.org/images/blog/vials.jpg"><br><small>(National Cancer Institute)</small></p>
 
 <p><a href="http://neontherapeutics.com" target="_blank">Neon Therapeutics</a> is a 2 year-old company <a href="http://neontherapeutics.com/#our-team" target="_blank">founded by researchers</a> at Dana-Farber, MD Anderson Cancer Center in Houston, Washington University in St . Louis, Netherlands Cancer Center, and the Broad Institute, a medical research center at MIT and Harvard University. The company is developing personalized treatments for cancer that produce immune system reactions addressing <a href="http://science.sciencemag.org/content/348/6230/69" target="_blank">neoantigens</a>, peptides &#8212; short protein chains &#8212; expressed by specific genetic alterations and found on the surface of tumor cells, which can be unique to an individual.</p>
 

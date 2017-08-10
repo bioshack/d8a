@@ -1,18 +1,18 @@
 ---
 title: Engineered Viruses Studied to Improve Plant Traits
 date: 2017-07-28 09:00:00
-author: bioshack
+author: 
 project: 
 tags:
   - DEV
   - DNA
-image: /images/aphids.jpg
+image: /images/blog/aphids.jpg
 large_header: false
 ---
 
 <p>A research study funded by the U.S. Department of Defense is investigating genetic alterations of plant viruses for delivery of genes to quickly protect corn crops against threats like pests and drought. The four-year project brings in researchers from four institutions, funded by a $10.3 million award from Defense Advanced Research Projects Agency, or Darpa.</p>
 
-<p><img src="http://d8a.org/images/aphids.jpg"><br><small>Corn leaf aphids feeding on maize (Meena Haribal, Boyce Thompson Institute)</small></p>
+<p><img src="http://d8a.org/images/blog/aphids.jpg"><br><small>Corn leaf aphids feeding on maize (Meena Haribal, Boyce Thompson Institute)</small></p>
 
 <p>The study, known as Viruses and Insects as Plant Enhancement Resources, or Viper, is looking for ways to improve the traits of maize, commonly called corn, in real time from natural threats such as harmful viruses and pests, and man-made threats such as herbicide, drought from climate change, and pollution. The research is part of Darpa&#8217;s <a href="https://www.darpa.mil/program/insect-allies" target="_blank">insect allies program</a> seeking to bolster food production that contributes to economic vitality, but also defense preparedness.</p>
 

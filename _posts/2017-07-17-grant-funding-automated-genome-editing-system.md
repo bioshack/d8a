@@ -1,17 +1,17 @@
 ---
 title: Grant Funding Automated Genome Editing System
 date: 2017-07-17 09:00:00
-author: bioshack
+author: 
 project: 
 tags:
   - DNA
-image: /images/crispr.jpg
+image: /images/blog/crispr.jpg
 large_header: false
 ---
 
 <p>A consortium of companies and university in the U.K. and U.S. are developing an automated desktop genome editing system using the emerging Crispr technique. The system is expected to be based on a single-cell analysis device made by <a href="http://www.spherefluidics.com/sphere-fluidics-limited-and-partners-win-major-innovateuk-grant-to-develop-the-worlds-first-desktop-genome-editing-system" target="_blank">Sphere Fluidics Ltd.</a> in Cambridge, England, and financed by a $1.25 million grant from InnovateUK, a government research and development funding agency.</p>
 
-<p><img src="http://d8a.org/images/crispr.jpg"><br><small>Artist depiction of Cas9 protein editing a gene (Jennifer Doudna, University of California - Berkeley)</small></p>
+<p><img src="http://d8a.org/images/blog/crispr.jpg"><br><small>Artist depiction of Cas9 protein editing a gene (Jennifer Doudna, University of California - Berkeley)</small></p>
 
 <p>Genome editing is becoming more widely applied across the life sciences for diagnostics, gene therapy, and regenerative medicine, as well as non-medical uses in agriculture and manufacturing. The most widely used genome-editing technique is <a href="https://www.broadinstitute.org/research-highlights-crispr" target="_blank">Crispr</a> - short for clustered regularly interspaced short palindromic repeats - a process based on bacterial defense mechanisms that employ RNA to identify and monitor precise locations in DNA. The actual editing of genomes with Crispr uses enzymes that cleave DNA strands at the desired points, with Crispr-associated protein 9, or Cas9, being the enzyme employed for the longest period.</p>
 
