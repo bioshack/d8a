@@ -2,7 +2,7 @@
 
 title: D8A
 description: Data, Discovery & Decision Science
-logo: /images/logo.png
+logo: /images/d8a.png
 url: "http://d8a.org"
 baseurl:
 
@@ -24,10 +24,10 @@ social:
     link: https://www.facebook.com/bioshack
     icon: facebook
   - name: Google+
-    link: https://plus.google.com/109051831311932022793
+    link: https://plus.google.com/+BioShack
     icon: google
   - name: LinkedIn
-    link: https://www.linkedin.com/company/2178821
+    link: https://www.linkedin.com/company/bioshack
     icon: linkedin
   - name: Twitter
     link: https://twitter.com/bioshack
@@ -54,7 +54,7 @@ defaults:
     values:
       layout: page
       background_image: /images/dots.png
-      image: /images/logo.png
+      image: /images/d8a.png
   -
     scope:
       path: ""
