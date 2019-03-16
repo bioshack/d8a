@@ -9,9 +9,6 @@ social:
   - name: Github
     link: https://github.com/bioshack
     icon: github
-  - name: Google+
-    link: https://plus.google.com/+BioShack
-    icon: google-plus
   - name: Instagram
     link: https://www.instagram.com/bioshack
     icon: instagram
