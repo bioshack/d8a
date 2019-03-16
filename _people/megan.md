@@ -9,9 +9,6 @@ social:
   - name: Github
     link: https://github.com/megdna
     icon: github
-  - name: Google+
-    link: https://plus.google.com/+Megan8
-    icon: google-plus
   - name: Instagram
     link: https://www.instagram.com/megdna
     icon: instagram
