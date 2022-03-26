@@ -16,25 +16,24 @@
 		{% feed_meta %}
 		{% seo %}
 
-		{% if jekyll.environment == 'production' and site.google_tagmanager != '' %}
-      <script>
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','{{ site.google_tagmanager }}');
-      </script>
+		{% if jekyll.environment == 'production' and site.analytics != '' %}
+<!-- Statcounter Code -->
+<script type="text/javascript">
+var sc_project={{ site.analytics }}; 
+var sc_invisible=1; 
+var sc_security="{{ site.security }}"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async>
+</script>
+<noscript>
+<img src="https://c.statcounter.com/{{ site.analytics }}/0/{{ site.security }}/1/">
+</noscript>
+<!-- End Statcounter Code -->
 		{% endif %}
 	</head>
 
 	<body>
-	  {% if jekyll.environment == 'production' and site.google_tagmanager != '' %}
-	    <noscript>
-	      <iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tagmanager }}"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe>
-      </noscript>
-		{% endif %}
-
 		<header style="background-image: url('{% include relative-src.html src=page.background_image %}');" {% if page.large_header %}class="main-hero"{% endif %}>
 			<div class="container">
 				<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
