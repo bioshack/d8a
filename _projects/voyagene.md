@@ -1,6 +1,6 @@
 ---
 name: VoyaGene
-image: "https://github.com/bioshack/VoyaGene/blob/main/voyagene.png"
+image: "https://raw.githubusercontent.com/bioshack/VoyaGene/main/voyagene.png"
 title: Journey the Genome
 social:
   - name: Github Repo
