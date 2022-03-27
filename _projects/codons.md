@@ -1,10 +1,10 @@
 ---
 name: Codons
-image: "https://avatars.githubusercontent.com/u/20877678"
+image: "https://raw.githubusercontent.com/bioshack/Codons/main/codons.png"
 title: Coding for Life
 social:
   - name: Github Repo
-    link: https://github.com/codons
+    link: https://github.com/bioshack/Codons
     icon: github
 members:
   - BioShack
