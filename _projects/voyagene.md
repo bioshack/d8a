@@ -1,10 +1,10 @@
 ---
 name: VoyaGene
-image: "https://avatars.githubusercontent.com/u/22062701"
+image: "https://github.com/bioshack/VoyaGene/blob/main/voyagene.png"
 title: Journey the Genome
 social:
   - name: Github Repo
-    link: https://github.com/voyagene
+    link: https://github.com/bioshack/VoyaGene
     icon: github
 members:
   - BioShack
