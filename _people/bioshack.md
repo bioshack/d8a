@@ -20,6 +20,8 @@ social:
     icon: twitter
 projects:
   - Codons
+  - GeneChain
+  - OpenDNA
   - Retrogene
   - Robozome
   - VoyaGene
