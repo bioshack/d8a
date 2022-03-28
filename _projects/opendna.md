@@ -1,6 +1,6 @@
 ---
 name: OpenDNA
-image: "https://avatars.githubusercontent.com/u/26314547"
+image: "https://avatars.githubusercontent.com/u/102555269"
 title: Genomics for Good
 social:
   - name: Github Repo
