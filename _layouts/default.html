@@ -15,22 +15,6 @@
 
 		{% feed_meta %}
 		{% seo %}
-
-		{% if jekyll.environment == 'production' and site.analytics != '' %}
-<!-- Statcounter Code -->
-<script type="text/javascript">
-var sc_project={{ site.analytics }}; 
-var sc_invisible=1; 
-var sc_security="{{ site.security }}"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js" async>
-</script>
-<noscript>
-<img src="https://c.statcounter.com/{{ site.analytics }}/0/{{ site.security }}/1/">
-</noscript>
-<!-- End Statcounter Code -->
-		{% endif %}
 	</head>
 
 	<body>
@@ -126,5 +110,22 @@ src="https://www.statcounter.com/counter/counter.js" async>
 				</p>
 			</div>
 		</footer>
+		
+{% if jekyll.environment == 'production' and site.analytics != '' %}
+<!-- Statcounter Code -->
+<script type="text/javascript">
+var sc_project={{ site.analytics }}; 
+var sc_invisible=1; 
+var sc_security="{{ site.security }}"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async>
+</script>
+<noscript>
+<img src="https://c.statcounter.com/{{ site.analytics }}/0/{{ site.security }}/1/">
+</noscript>
+<!-- End Statcounter Code -->
+{% endif %}
+		
 	</body>
 </html>
