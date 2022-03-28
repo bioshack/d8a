@@ -26,6 +26,8 @@ social:
     icon: external-link
 projects:
   - Codons
+  - GeneChain
+  - OpenDNA
   - Retrogene
   - Robozome
   - VoyaGene

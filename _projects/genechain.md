@@ -11,4 +11,4 @@ members:
   - Megan
 ---
 
-Genomics blockchain for verifying DNA sequences and generating personal gene IDs
+Genomics blockchain for verifying DNA sequences and giving personal gene IDs

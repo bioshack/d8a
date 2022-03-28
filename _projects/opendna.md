@@ -11,4 +11,4 @@ members:
   - Megan
 ---
 
-Open source platform and consumer-friendly tools for analyzing personal genomes
+Open source platform and user-friendly tools for analyzing personal genomes
