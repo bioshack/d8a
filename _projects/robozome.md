@@ -1,10 +1,10 @@
 ---
 name: Robozome
-image: "https://raw.githubusercontent.com/bioshack/Robozome/main/robozome.png"
+image: "https://avatars.githubusercontent.com/u/19498664"
 title: Molecular Machine Learning
 social:
   - name: Github Repo
-    link: https://github.com/bioshack/Robozome
+    link: https://github.com/robozome
     icon: github
 members:
   - BioShack

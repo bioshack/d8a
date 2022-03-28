@@ -1,10 +1,10 @@
 ---
 name: Retrogene
-image: "https://raw.githubusercontent.com/bioshack/Retrogene/main/retrogene.png"
+image: "https://avatars.githubusercontent.com/u/21049674"
 title: Going Back to Move Forward
 social:
   - name: Github Repo
-    link: https://github.com/bioshack/Retrogene
+    link: https://github.com/retrogene
     icon: github
 members:
   - BioShack
