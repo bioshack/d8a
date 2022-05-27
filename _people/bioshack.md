@@ -18,6 +18,9 @@ social:
   - name: Twitter
     link: https://twitter.com/bioshack
     icon: twitter
+  - name: Ko-fi
+    link: https://ko-fi.com/bioshack
+    icon: coffee
 projects:
   - Codons
   - GeneChain
