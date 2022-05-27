@@ -1,6 +1,6 @@
 ## About
 
-This is a Jekyll theme created for **[D8A](http://d8aorg.github.io)**.
+This is a Jekyll theme created for **[D8A](http://d8a.org)**.
 
 ## Credits
 

@@ -18,6 +18,12 @@ social:
   - name: Twitter
     link: https://twitter.com/bioshack
     icon: twitter
+  - name: Ko-fi
+    link: https://ko-fi.com/bioshack
+    icon: coffee
+  - name: Mastodon
+    link: https://scholar.social/@bio
+    icon: external-link
 projects:
   - Codons
   - GeneChain
