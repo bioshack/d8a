@@ -11,7 +11,7 @@ social:
     icon: linkedin
   - name: Mastodon
     link: https://fediscience.org/@meg
-    icon: mastodon
+    icon: elephant
   - name: YouTube
     link: https://www.youtube.com/megdna
     icon: youtube
