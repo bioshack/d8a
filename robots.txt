@@ -4,3 +4,6 @@ sitemap: false
 ---
 User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
+
+User-agent: ChatGPT-User
+Disallow: /
