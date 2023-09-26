@@ -23,13 +23,13 @@ social:
   - name: Facebook
     link: https://www.facebook.com/bioshack
     icon: facebook
-  - name: Instagram
-    link: https://www.instagram.com/biod8a
-    icon: instagram
+  - name: GitHub
+    link: https://github.com/bioshack
+    icon: github
   - name: LinkedIn
     link: https://www.linkedin.com/company/bioshack
     icon: linkedin
-  - name: Twitter
+  - name: Twitter/X
     link: https://twitter.com/bioshack
     icon: twitter
 

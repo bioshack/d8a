@@ -9,9 +9,6 @@ social:
   - name: Github
     link: https://github.com/bioshack
     icon: github
-  - name: Instagram
-    link: https://www.instagram.com/biod8a
-    icon: instagram
   - name: LinkedIn
     link: https://www.linkedin.com/company/bioshack
     icon: linkedin

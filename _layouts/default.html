@@ -106,8 +106,7 @@
 
 			<div class="legal-line">
 				<p class="container">
-					Copyright &copy; {% if site.founded %}{{site.founded}}-{% endif %}{{ site.time | date: '%Y' }} <strong><a href="{{ site.baseurl }}/">{{ site.title }}</a></strong>
-					{% if site.github_repo %} &bull; View &lt;/&gt; on <a href="{{ site.github_repo }}" target="_blank">GitHub &nbsp;<i class="fa fa-github-alt"></i></a>{% endif %}
+					Copyright &copy; {% if site.founded %}{{site.founded}}-{% endif %}{{ site.time | date: '%Y' }} <strong><a href="{{ site.baseurl }}/">{{ site.title }}</a></strong> &bull; Buy us a <a href="https://ko-fi.com/bioshack" target="_blank">coffee &nbsp;<i class="fa fa-coffee"></i></a>
 				</p>
 			</div>
 		</footer>
@@ -116,7 +115,7 @@
 <script data-goatcounter="https://{{ site.analytics }}/count"
         async src="//gc.zgo.at/count.js"></script>
 <noscript>
-    <img src="https://{{ site.analytics }}/count?p=/noscript">
+    <img src="https://{{ site.analytics }}/count?p=/ns">
 </noscript>
 {% endif %}
 		
